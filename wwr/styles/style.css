@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro&display=swap');
+
+
 #content {
     max-width: 1600px;
     width: 80%;
@@ -6,6 +9,14 @@
 
 #hero-msg h1, #hero-msg h4, .button-box, main section, #logo_link {
     text-align: center;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
 
 #background {
@@ -20,8 +31,16 @@
     width: 80px;
 }
 
+.icon {
+    padding-top: 10px;
+}
+
 body {
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 22px;
     background-color: #f6fff8;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -32,6 +51,7 @@ nav a {
     color: black;
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -41,16 +61,23 @@ nav a:hover {
 
 .home-title {
     color: black;
+    font-family: "Oswald", "Georgia (serif)", "Tahoma (sans-serif)";
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
     color: black;
+    
 }
 
 .book , .join{
     background-color: #a4c3b2;
     color: black;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -60,14 +87,19 @@ h4 {
 
 h2 {
     color: black;
+    padding: 0;
+    margin: 0;
+    
 }
 
 .msg h2 {
     color: black;
+    font-family: "Oswald", "Georgia (serif)", "Tahoma (sans-serif)";
 }
 
 .msg p {
     color: black;
+    padding-bottom: 15px;
 }
 
 #background {
@@ -76,16 +108,20 @@ h2 {
 
 .msg {
     background-color: #ADD8E6;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #cce3de;
     color: black;
+    margin-top: 50px;
 }
 
 footer a {
     color: black;
     text-decoration: none;
+    padding: 25px 50px
 }
 
 footer a:hover {
@@ -98,4 +134,16 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+footer .social img {
+ padding-top: 15px;   
+}
+
+.rivers-card .rapids-card .camping-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #5F8172;
 }
