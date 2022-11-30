@@ -238,6 +238,61 @@ footer .social img {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+.qbox {
+    grid-column: 1/11;
+}
+
+#background2 {
+    grid-column: 1/11;
+    grid-row: 15/20;
+    height: 725px;
+    background-color: #FBDBC6;
+}
+
+.distance {
+    grid-column: 2/10;
+    grid-row: 16/19;
+    box-shadow: 5px 5px 10px #6f7364;
+    width: 100%
+
+}
+
+.msg2 {
+    grid-column: 6/11;
+    grid-row: 17/18;
+    box-shadow: 5px 5px 10px #6f7364;
+    background-color: #ADD8E6;
+    line-height: 1.5em;
+    padding: 35px;
+
+}
+
+.msg2 h2 {
+    color: black;
+    font-family: "Oswald", "Georgia (serif)", "Tahoma (sans-serif)";
+}
+
+.msg2 p {
+    color: black;
+    padding-bottom: 15px;
+}
+
+.home-title2 {
+    color: black;
+    font-family: "Oswald", "Georgia (serif)", "Tahoma (sans-serif)";
+    font-size: 2em;
+    margin-top: 10px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.question {
+    font-weight: bold;
+}
+
+#q2, #q4, #q6 {
+    background-color: #cce3de;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
@@ -280,3 +335,4 @@ footer .social img {
         margin-top: 25px;
     }
 }
+
