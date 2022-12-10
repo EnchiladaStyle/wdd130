@@ -94,8 +94,7 @@ header {
     display: block;
     height: 300px;
     padding-top: 50px;
-    margin-left: 1fr;
-    margin-right: 1fr;
+   
 }
 
 #right-side {
@@ -107,8 +106,7 @@ header {
     display: block;
     height: 300px;
     padding-top: 50px;
-    margin-left: 1fr;
-    margin-right: 1fr;
+    
 }
 
 .home-grid {
