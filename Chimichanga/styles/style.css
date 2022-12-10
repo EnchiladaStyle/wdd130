@@ -35,8 +35,8 @@ nav a:hover {
 
 #Welcome_msg {
     font-family: "Source Sans Pro", Helvetica, sans-serif;
-    grid-column: 2;
-    grid-row: 5;
+    grid-column-start: 2;
+    grid-row-start: 6;
     
 }
 
@@ -85,10 +85,31 @@ header {
     padding-top: 65px;
 }
 
-.client_img {
-    width: 400px;
+#left-side {
+    
+    padding-top: 120px;
 }
 
+#left-side img {
+    display: block;
+    height: 300px;
+    padding-top: 50px;
+    margin-left: 1fr;
+    margin-right: 1fr;
+}
+
+#right-side {
+    
+    padding-top: 120px;
+}
+
+#right-side img {
+    display: block;
+    height: 300px;
+    padding-top: 50px;
+    margin-left: 1fr;
+    margin-right: 1fr;
+}
 
 .home-grid {
     display: grid;
@@ -125,4 +146,11 @@ footer a {
 footer a:hover {
     background-color: #FF9940;
     color: black;
+}
+
+.client-grid {
+    display: grid;
+    grid-template-columns: 200px 1fr 200px 1fr 200px;
+    
+    
 }
