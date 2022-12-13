@@ -25,6 +25,7 @@ nav a {
     padding: 35px;
     background-color: #9B5DE5;
     margin: 25px;
+    box-shadow: 5px 5px 10px #023020;
     
 }
 
@@ -77,7 +78,10 @@ header {
 
 .personal_image {
     width: 70%;
-    padding: 100px;
+    margin: 100px;
+    padding: 10px;
+    background-color: #FF9940;
+    box-shadow: 5px 5px 10px #6f7364;
     
 }
 
@@ -93,7 +97,10 @@ header {
 #left-side img {
     display: block;
     height: 300px;
-    padding-top: 50px;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #FF9940;
+    box-shadow: 5px 5px 10px #6f7364;
    
 }
 
@@ -105,7 +112,10 @@ header {
 #right-side img {
     display: block;
     height: 300px;
-    padding-top: 50px;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #FF9940;
+    box-shadow: 5px 5px 10px #6f7364;
     
 }
 
@@ -138,6 +148,7 @@ footer a {
     background-color: #9B5DE5;
     padding: 20px;
     margin: 20px;
+    box-shadow: 5px 5px 10px #023020;
     
 }
 
@@ -151,4 +162,34 @@ footer a:hover {
     grid-template-columns: 200px 1fr 200px 1fr 200px;
     
     
+}
+
+.about-img {
+    width: 400px;
+    padding-bottom: 5px;
+    
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#description {
+    grid-column: 3;
+    margin-top: 170px;
+    padding-left: 25px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background-color: #FF9940;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+#about-img-div {
+    grid-column: 2;
+    margin-top: 170px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: #FF9940;
+    box-shadow: 5px 5px 10px #6f7364;
 }
