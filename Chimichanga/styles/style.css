@@ -5,8 +5,12 @@
     
 }
 
-#Header {
-    grid-column: 3;
+
+
+#logo_link {
+    
+    
+    grid-column: 2;
 }
 
 nav {
@@ -62,7 +66,7 @@ header {
 }
 
 .logo {
-    width: 300px;
+    width: 400px;
     
     
 
