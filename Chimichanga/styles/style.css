@@ -2,24 +2,24 @@
 
 .home-title {
     font-family: "Oswald", "Monospace";
-    
+    display: flex;
+    justify-content: center;
 }
-
 
 
 #logo_link {
     
+    display: flex;
+    justify-content: center;
     
-    grid-column: 2;
 }
 
 nav {
     z-index: 2;
     display: flex;
     justify-content: space-around;
-    grid-column: 3;
-    grid-row: 11;
-    font-family: "Oswald", "Monospace";;
+    
+    font-family: "Oswald", "Monospace";
 }
 
 nav a {
@@ -30,6 +30,9 @@ nav a {
     background-color: #9B5DE5;
     margin: 25px;
     box-shadow: 5px 5px 10px #023020;
+    margin-left: 75px;
+    border-radius: 15px;
+    
     
 }
 
@@ -40,8 +43,11 @@ nav a:hover {
 
 #Welcome_msg {
     font-family: "Source Sans Pro", Helvetica, sans-serif;
-    grid-column-start: 2;
-    grid-row-start: 6;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    text-align: center;
+    
     
 }
 
@@ -52,21 +58,16 @@ body {
 }
 
 
-#header-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 20%);
-    grid-template-rows: repeat(10, 10%);
-}
 
 header {
     background-color: #00BBF9;
-    
-    
-    
+    border-radius: 30px;
 }
 
 .logo {
-    width: 400px;
+    width: 500px;
+    height: 300px;
+    
     
     
 
@@ -82,7 +83,7 @@ header {
 
 .personal_image {
     width: 70%;
-    margin: 100px;
+    margin: 50px;
     padding: 10px;
     background-color: #FF9940;
     box-shadow: 5px 5px 10px #6f7364;
@@ -90,13 +91,9 @@ header {
 }
 
 #first-image {
-    padding-top: 65px;
+    padding-top: 10px;
 }
 
-#left-side {
-    
-    padding-top: 120px;
-}
 
 #left-side img {
     display: block;
@@ -108,10 +105,6 @@ header {
    
 }
 
-#right-side {
-    
-    padding-top: 120px;
-}
 
 #right-side img {
     display: block;
@@ -124,13 +117,8 @@ header {
 }
 
 .home-grid {
-    display: grid;
-    
-    
+    display: grid; 
 }
-
-
-
 
 
 footer {
@@ -181,7 +169,7 @@ footer a:hover {
 
 #description {
     grid-column: 3;
-    margin-top: 170px;
+    margin-top: 50px;
     padding-left: 25px;
     padding-right: 10px;
     padding-top: 10px;
@@ -191,9 +179,61 @@ footer a:hover {
 
 #about-img-div {
     grid-column: 2;
-    margin-top: 170px;
+    margin-top: 50px;
     padding-left: 10px;
     padding-top: 10px;
     background-color: #FF9940;
     box-shadow: 5px 5px 10px #6f7364;
+}
+
+@media screen and (max-width: 900px) {
+    .logo {
+        width: 85%;
+        height: auto;
+    }
+
+    nav a {
+        margin: 5px;   
+    }
+
+    .personal_image {
+        width: 96%;
+    }
+
+    .client-grid {
+        grid-template-columns: 1fr;
+        place-items: center;
+        
+    }
+
+    #left-side {
+        place-items: center;
+    }
+
+    #left-side img, #right-side img {
+        
+        width: 96%;
+        height: auto;
+        padding: 2%;       
+    }
+
+    .about-grid {
+        display: inline;
+    }
+
+    #about-img-div {
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    #about-img-div img {
+        width: 90%;
+        
+    }
+
+    #description {
+        margin-top: 1px;
+        padding-bottom: 10px;
+    }
 }
