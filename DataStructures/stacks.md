@@ -64,3 +64,5 @@ the code above effectively replays songs, but each time it goes back to a previo
 Your challenge is to update the program with a second stack, that keeps track of the song played before we went back. 
 
 Then update the program to only provide a random song if the there is not a predetermined song in the new stack.
+
+To view a solution to this challenge, [click here](stackspractice.py)

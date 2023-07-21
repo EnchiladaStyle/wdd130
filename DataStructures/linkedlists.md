@@ -194,7 +194,7 @@ def addSong(self, song):
 
 The addSong function effectively adds a new song to the playlist, however, if a user tries to add a song that already exists, it just ignores the command. It might help the user if the song was re added to the tail of the linked list, instead of just remaining in its current position.
 Your challenge is to modify the addSong function so that if a song is added that already exists in the playlist, the node that contains the target song will be removed from the linked list, and a new node containing the song will be added to the tail of the linked list. The code below is just the above functions set together in a usable way. You can use it to complete your assignment.
-
+To see a solution to this challenge, [click here](linkedListPractice.py)
 ```python
 class LinkedList:
         

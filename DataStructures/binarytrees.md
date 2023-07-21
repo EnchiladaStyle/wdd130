@@ -213,4 +213,5 @@ Inserting in this order makes a balanced tree. Notice how if the song with the r
 
 ## Coding Challenge
 
-Your challenge is to write a function that will find and display the names of the highest and the lowest rated songs in the binary tree. You should use the code in the example problem above to get started.
+Your challenge is to write a function that will find and display the names of the highest and the lowest rated songs in the binary tree. You should use the code in the example problem above to get started. 
+To see a solution to this challenge, [click here](binarytreepractice.py)
